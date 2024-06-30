@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-file_path = 'C:/Users/amans/Downloads/netflix_titles.csv'
+file_path = 'netflix_titles.csv'
 df = pd.read_csv(file_path, encoding='latin1')
 
 # Remove unnecessary columns
@@ -17,7 +17,7 @@ df['date_added'] = pd.to_datetime(df['date_added'], errors='coerce')
 df.drop(columns=['description'], inplace=True)
 
 # Save the cleaned dataset to a new CSV file
-cleaned_file_path = 'C:/Users/amans/Downloads/cleaned_netflix_titles.csv'
+cleaned_file_path = 'cleaned_netflix_titles.csv'
 df.to_csv(cleaned_file_path, index=False)
 
 # Display the cleaned dataset
