@@ -11,7 +11,7 @@ GROUP BY
 GO
 
 -- Create a view to show the number of shows added over time
--- The view groups data by year and month of the date when the show was added to Netflix
+-- Groups data by year and month of the date when the show was added to Netflix
 CREATE VIEW NumberOfShowsAddedOverTime AS
 SELECT 
     CAST(date_added AS DATE) AS added_date,
@@ -42,7 +42,7 @@ GROUP BY
 GO
 
 -- Create a view to show the popular genres
--- The view splits the 'listed_in' column to handle multiple genres per show
+-- Splits the 'listed_in' column to handle multiple genres per show
 CREATE VIEW PopularGenres AS
 WITH GenreSplit AS (
     SELECT 
@@ -62,23 +62,19 @@ GROUP BY
 GO
 
 -- Select data from the 'DistributionOfShowsByType' view
--- This query retrieves the distribution of shows by type, including the count and percentage
 SELECT * FROM DistributionOfShowsByType;
 
 -- Select data from the 'NumberOfShowsAddedOverTime' view
--- This query retrieves the number of shows added over time, ordered by year and month
 SELECT * 
 FROM NumberOfShowsAddedOverTime
 ORDER BY added_year, added_month;
 
 -- Select data from the 'TopCountriesByNumberOfShows' view
--- This query retrieves the top countries by the number of shows, ordered by the show count in descending order
 SELECT * 
 FROM TopCountriesByNumberOfShows
 ORDER BY show_count DESC;
 
 -- Select data from the 'PopularGenres' view
--- This query retrieves the popular genres, ordered by the show count in descending order
 SELECT * 
 FROM PopularGenres
 ORDER BY show_count DESC;
