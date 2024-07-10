@@ -22,10 +22,9 @@ This project focuses on analyzing the Netflix shows and movies dataset to unders
 
 ### Data Analysis
 - **SQL Views Creation**: Created SQL views to analyze various aspects of the data:
-  - Distribution of Shows by Type
-  - Number of Shows Added Over Time
-  - Top Countries by Number of Shows
   - Popular Genres
+  - Number of Releases Over Time (2015-2021)
+  - Number of Releases In Each Country
 
 ### Data Visualization
 - **Tool Used**: Visualized the results using Tableau based on the created views.
