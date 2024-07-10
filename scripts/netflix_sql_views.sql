@@ -1,15 +1,3 @@
--- Create a view to show the distribution of shows by type (Movie or TV Show)
-CREATE VIEW DistributionOfShowsByType AS
-SELECT 
-    type, 
-    COUNT(*) AS count, 
-    (COUNT(*) * 100.0 / (SELECT COUNT(*) FROM netflix.dbo.netflix_titles)) AS percentage
-FROM 
-    netflix.dbo.netflix_titles
-GROUP BY 
-    type;
-GO
-
 -- Create a view to show the number of shows added over time
 -- Groups data by year and month of the date when the show was added to Netflix
 CREATE VIEW NumberOfShowsAddedOverTime AS
@@ -60,9 +48,6 @@ FROM
 GROUP BY 
     genre;
 GO
-
--- Select data from the 'DistributionOfShowsByType' view
-SELECT * FROM DistributionOfShowsByType;
 
 -- Select data from the 'NumberOfShowsAddedOverTime' view
 SELECT * 
