@@ -39,7 +39,7 @@ Below are the key visualizations and insights from the project.
 ![Popular Genres](https://github.com/AmanVattoli/netflix-releases-analysis/assets/119834364/386ac6b7-e85b-4573-956a-c8ab073c58df)
 
 **Analysis**:
-  - Dramas, International Movies, and Comedies are among the top genres.
+  - International Movies, Dramas and Comedies are among the top genres.
 
 #### Number of Releases Over Time
 ![Number of Releases Over Time](https://github.com/AmanVattoli/netflix-releases-analysis/assets/119834364/8cde4e3f-b623-4bd9-ae4f-57cf04047adb)
