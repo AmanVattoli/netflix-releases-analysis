@@ -33,24 +33,13 @@ This project focuses on analyzing the Netflix shows and movies dataset to unders
 
 Below are the key visualizations and insights from the project.
 
-### Visualizations
+### Dashboard
 
-#### Popular Genres
-![Popular Genres](https://github.com/AmanVattoli/netflix-releases-analysis/assets/119834364/386ac6b7-e85b-4573-956a-c8ab073c58df)
+![Dashboard](https://github.com/user-attachments/assets/db58bdff-50e0-420c-a004-8a61356a8e6e)
 
-**Analysis**:
+**Findings**:
   - International Movies, Dramas and Comedies are among the top genres.
-
-#### Number of Releases Over Time
-![Number of Releases Over Time](https://github.com/AmanVattoli/netflix-releases-analysis/assets/119834364/8cde4e3f-b623-4bd9-ae4f-57cf04047adb)
-
-**Analysis**:
   - Significant increase in the number of shows and movies added from 2016 onwards.
   - The highest number of releases was in 2019.
-
-#### Number of Releases in Each Country
-![Number of Releases in Each Country](https://github.com/AmanVattoli/netflix-releases-analysis/assets/119834364/39e8abf0-ba1d-4f72-93ae-5d1afca6216e)
-
-**Analysis**:
   - The United States leads in content production
   - Countries like Canada, France, and Japan also contribute significantly to Netflix's catalog.
