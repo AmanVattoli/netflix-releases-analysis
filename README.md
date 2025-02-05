@@ -2,7 +2,7 @@
 
 This project focuses on analyzing the Netflix shows and movies dataset to understand various trends and patterns in the content available on the platform.
 
-[View the interactive Tableau dashboard here](https://public.tableau.com/shared/NNHGQMCGD?:display_count=n&:origin=viz_share_link)
+[View the interactive Tableau dashboard here](https://public.tableau.com/shared/48R8Q782X?:display_count=n&:origin=viz_share_link)
 
 ## Steps Taken
 
